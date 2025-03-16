@@ -27,7 +27,7 @@ Requires TypeScript 4.1+ (comes with type definitions)
 ### Basic Example
 
 ```typescript
-// user.testkit.ts
+// user.mockli.ts
 import Mockli from 'mockli';
 
 interface User {
@@ -61,10 +61,10 @@ console.log(mock.users);
 */
 ```
 
-### Composable Test Kits
+### Composable Mocks
 
 ```typescript
-// product.testkit.ts
+// product.mockli.ts
 import Mockli from 'mockli';
 
 interface Product {

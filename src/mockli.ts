@@ -28,7 +28,7 @@ class Mockli<T extends Record<string, any> = Record<string, any>> {
   
     /**
      * Creates a new Mockli instance with merged functionality
-     * @param mocklis Array of test kits to merge
+     * @param mocklis Array of mocklis (test kits) to merge
      * 
      * @example
      * const mockli = Mockli.withMocklis([UserMock, ProductMock]);
