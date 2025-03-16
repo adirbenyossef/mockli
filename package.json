@@ -1,0 +1,21 @@
+{
+  "name": "mockli",
+  "version": "1.0.0",
+  "description": "Simple mock creation test kit with builder pattern",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["test", "mock", "builder", "testing"],
+  "author": "Adir Ben Yosef",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*.ts"
+  ]
+}
